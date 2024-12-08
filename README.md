@@ -1,4 +1,4 @@
-# Automation Script for Windows and Linux
+# Automation Script to extract Wi-Fi passwords from Windows and Linux
 
 This Arduino sketch automates the download and execution of Python scripts on both Windows and Linux systems using the DigiKeyboard library.
 
